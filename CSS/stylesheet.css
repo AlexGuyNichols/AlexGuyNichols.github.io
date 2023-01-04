@@ -1,0 +1,110 @@
+.dark {
+	color: #232c32;
+}
+
+.light {
+	color: #2d3f53;
+}
+
+.feature {
+	color: #c65337;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+.title {
+	color:#c65337;
+	text-align: center;
+}
+
+* {
+	font-family: Arial;
+	background-color: #232c32;
+}
+
+a {
+	color: white;
+	background-color: #2d3f53;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+.pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	color: #FFFFFF;
+	background-color: #2d3f53;
+}
+
+.description {
+		display: block;
+		background-color: #2d3f53;
+		color: white;
+		padding: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+}
+
+.nav {
+	font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2d3f53;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #2d3f53;
+}
+
+li a:hover {
+  background-color: #c65337;
+}
+
+.active {
+  background-color: #c65337;
+}
+
+footer {
+	color: #c65337;
+	padding: 10px;
+}
+
+table {
+	font-size: 18px;
+	text-align:center;
+	margin: 20px auto;
+	width: 80%;
+	color: white;
+	height: 40%;
+}
+
+th, td, tr {
+	border: 2px solid #2d3f53;
+}
