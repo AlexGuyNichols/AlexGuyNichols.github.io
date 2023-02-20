@@ -11,6 +11,9 @@
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="style.css" />
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
   </head>
   <body>
 
@@ -57,13 +60,83 @@
         </p>
     </div>
 
-<!-- Footer -->
-    <footer><script src="footer.js"></script></footer>
+    <section class="latest-work-section">
+        <div class="container">
+          <h2>Latest Work</h2>
+          <div class="row" id="latest-work-row">
+            <!-- Project cards will be dynamically generated here -->
+          </div>
+        </div>
+      </section>
+      
+      <script>
+        $(function() {
+          // Load the JSON data
+          $.getJSON('latest-work.json', function(data) {
+            var latestProjects = data.projects;
+            var projects = latestProjects.slice(0, 3);
+      
+            // Iterate over the latest projects
+            $.each(projects, function(index, project) {
+              // Generate the HTML code for the project card
+              var projectCard = '<div class="col-md-4">';
+              projectCard += '<div class="card">';
+              projectCard += '<img src="' + project.image + '" class="card-img-top" alt="' + project.title + '">';
+              projectCard += '<div class="card-body">';
+              projectCard += '<h5 class="card-title">' + project.title + '</h5>';
+              projectCard += '<p class="card-text">' + project.description + '</p>';
+              projectCard += '<a href="' + project.link + '" class="btn btn-primary">Learn more</a>';
+              projectCard += '</div></div></div>';
+              // Append the project card to the latest work row
+              $('#latest-work-row').append(projectCard);
+            });
+          });
+        });
+      </script>
+      
+      
+      
+      
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-light py-5">
+        <div class="row">
+          <div class="col-12 col-md">
+            <h5>My Personal Website</h5>
+            <small class="d-block mb-3 text-muted">&copy; 2023</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Pages</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Home</a></li>
+              <li><a class="text-muted" href="about.html">About me</a></li>
+              <li><a class="text-muted" href="contact.html">Contact me</a></li>
+              <li><a class="text-muted" href="projects.html">Projects</a></li>
+              <li><a class="text-muted" href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Connect</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Facebook</a></li>
+              <li><a class="text-muted" href="#">Twitter</a></li>
+              <li><a class="text-muted" href="#">Instagram</a></li>
+              <li><a class="text-muted" href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Contact</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Email</a></li>
+              <li><a class="text-muted" href="#">Phone</a></li>
+              <li><a class="text-muted" href="#">Address</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
       
       
       <!-- JavaScript files -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"integrity="sha256-+eMKN6Pm2iLQgz6UcE6YLy5h5orxsl5JrTZrxZ2vKy0="crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"crossorigin="anonymous"></script>
         <script src="app.js"></script>
   </body>
