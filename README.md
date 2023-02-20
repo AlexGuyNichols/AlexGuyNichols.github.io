@@ -2,18 +2,6 @@ My Personal Website
 
 This is a repository for my personal website showcasing my web development projects, blog posts, and contact information. The website is built using HTML, CSS, and Bootstrap, and is hosted using GitHub Pages.
 
-Table of Contents
-
-Installation
-Usage
-Contributing
-License
-Installation
-
-To install this website locally, you can clone this repository by running the following command in your terminal:
-
-git clone https://github.com/your-username/your-repo-name.git
-
 Usage
 
 You can view the website by visiting the following URL:
