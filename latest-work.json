@@ -3,19 +3,19 @@
       {
         "title": "Project 1",
         "description": "This is a short description of project 1.",
-        "image": "image-1.jpg",
+        "image": "https://image.shutterstock.com/z/stock-photo-science-fiction-concept-art-of-a-spaceship-shaped-like-the-letters-a-and-i-colorgraded-cinematic-2238387957.jpg",
         "link": "#"
       },
       {
         "title": "Project 2",
         "description": "This is a short description of project 2.",
-        "image": "image-2.jpg",
+        "image": "https://image.shutterstock.com/z/stock-photo-a-dragon-wearing-futuristic-cybernetic-battle-armour-dramatic-lighting-portrait-realistic-2237603929.jpg",
         "link": "#"
       },
       {
         "title": "Project 3",
         "description": "This is a short description of project 3.",
-        "image": "image-3.jpg",
+        "image": "https://image.shutterstock.com/z/stock-photo-portrait-of-lucifer-studio-lighting-highly-detailed-fine-art-photography-warm-lighting-taken-2237609159.jpg",
         "link": "#"
       }
     ]
