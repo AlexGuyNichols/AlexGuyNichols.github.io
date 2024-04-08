@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-gray-800 text-white p-4">
+        <nav class="container mx-auto flex justify-between">
+            <a href="index.html" class="font-semibold">Home</a>
+            <div>
+                <a href="about.html" class="px-2">About</a>
+                <a href="portfolio.html" class="px-2">Portfolio</a>
+                <a href="contact.html" class="px-2">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="container mx-auto my-8">
+        <section class="text-center my-8">
+            <h1 class="text-4xl font-bold">Get In Touch</h1>
+            <p class="mt-4">I'm available for freelance projects and full-time employment. Let's connect!</p>
+        </section>
+        <section>
+            <form action="your-server-endpoint" method="POST" class="max-w-md mx-auto mb-8">
+                <input type="text" name="name" placeholder="Your Name" required class="block w-full p-2 my-2 bg-gray-200 rounded">
+                <input type="email" name="email" placeholder="Your Email" required class="block w-full p-2 my-2 bg-gray-200 rounded">
+                <textarea name="message" rows="4" placeholder="Your Message" required class="block w-full p-2 my-2 bg-gray-200 rounded"></textarea>
+                <button type="submit" class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Send Message</button>
+            </form>
+            <div class="text-center">
+                <a href="https://github.com/yourusername" target="_blank" class="block my-2">GitHub</a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" class="block my-2">LinkedIn</a>
+                <!-- Add more social links as needed -->
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white text-center p-4">
+        © 2024 Your Name. All rights reserved.
+    </footer>
+</body>
+</html>
