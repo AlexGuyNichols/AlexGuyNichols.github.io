@@ -1,481 +1,770 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
-        <!-- SEO Meta Tags -->
-        <meta name="description" content="Alex Nichols - DevOps Engineer">
-        <meta name="author" content="Alex Nichols">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
 
-        <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-        <meta property="og:site_name" content="Alex Nichols - DevOps" /> <!-- website name -->
-        <meta property="og:site" content="alexguynichols.co.uk" /> <!-- website link -->
-        <meta property="og:title" content="Alex Nichols - Tech Portfolio"/> <!-- title shown in the actual shared post -->
-        <meta property="og:description" content="Discover Alex Nichols' professional journey and projects, showcasing expertise in AWS, Terraform, Docker, and Kubernetes." /> <!-- description shown in the actual shared post -->
-        <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-        <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-        <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+		<!-- SEO Meta Tags -->
+		<meta name="description" content="Alex Nichols - Junior DevOps Engineer" />
+		<meta name="author" content="Alex Nichols" />
 
-        <!-- Webpage Title -->
-        <title>Daxta</title>
-        
-        <!-- Styles -->
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
-        <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="css/fontawesome-all.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
-        
-        <!-- Favicon  -->
-        <link rel="icon" href="images/favicon.png">
-    </head>
-    <body data-spy="scroll" data-target=".fixed-top">
-        
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-            <div class="container">
-                
-                <!-- Image Logo -->
-                <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>  -->
+		<!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+		<meta property="og:site_name" content="Alex Nichols" />
+		<!-- website name -->
+		<meta property="og:site" content="alexguynichols.co.uk" />
+		<!-- website link -->
+		<meta property="og:title" content="Alex Nichols - Tech Portfolio" />
+		<!-- title shown in the actual shared post -->
+		<meta
+			property="og:description"
+			content="Discover Alex Nichols' professional journey and projects, showcasing expertise in AWS, Terraform, Docker, and Kubernetes."
+		/>
+		<!-- description shown in the actual shared post -->
+		<meta property="og:image" content="images/profile.jpg" />
+		<!-- image link, make sure it's jpg -->
+		<meta property="og:url" content="https://alexguynichols.co.uk" />
+		<!-- where do you want your post to link to -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<!-- to have large image post format in Twitter -->
 
-                <!-- Text Logo - Use this if you don't have a graphic logo -->
-                <a class="navbar-brand logo-text page-scroll" href="index.html">Alex Nichols</a>
+		<!-- Webpage Title -->
+		<title>Alex Nichols - Tech Portfolio</title>
 
-                <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+		<!-- Styles -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="css/bootstrap.css" rel="stylesheet" />
+		<link href="css/fontawesome-all.css" rel="stylesheet" />
+		<link href="css/styles.css" rel="stylesheet" />
 
-                <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <span class="nav-item social-icons">
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                    </span>
-                </div> <!-- end of navbar-collapse -->
-            </div> <!-- end of container -->
-        </nav> <!-- end of navbar -->
-        <!-- end of navigation -->
+		<!-- Favicon  -->
+		<link rel="icon" href="images/favicon.png" />
+	</head>
 
+	<body data-spy="scroll" data-target=".fixed-top">
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+			<div class="container">
+				<!-- Text Logo -->
+				<a class="navbar-brand logo-text page-scroll" href="index.html"
+					>Alex Nichols</a
+				>
 
-        <!-- Header -->
-        <header id="header" class="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="text-container">
-                            <h1 class="h1-large">Building powerful software solutions</h1>
-                            <a class="btn-solid-lg page-scroll" href="#about">Discover</a>
-                            <a class="btn-outline-lg page-scroll" href="#contact"><i class="fas fa-user"></i>Contact Me</a>
-                        </div> <!-- end of text-container -->
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </header> <!-- end of header -->
-        <!-- end of header -->
+				<button
+					class="navbar-toggler p-0 border-0"
+					type="button"
+					data-toggle="offcanvas"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
+				<div
+					class="navbar-collapse offcanvas-collapse"
+					id="navbarsExampleDefault"
+				>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link page-scroll" href="#header"
+								>Home <span class="sr-only">(current)</span></a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link page-scroll" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link page-scroll" href="#skills">Skills</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link page-scroll" href="#projects">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link page-scroll" href="#contact">Contact</a>
+						</li>
+					</ul>
+					<span class="nav-item social-icons">
+						<span class="fa-stack">
+							<a href="https://www.linkedin.com/in/alexguynichols">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-linkedin fa-stack-1x"></i>
+							</a>
+						</span>
+						<span class="fa-stack">
+							<a href="https://github.com/AlexGuyNichols">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-github fa-stack-1x"></i>
+							</a>
+						</span>
+					</span>
+				</div>
+				<!-- end of navbar-collapse -->
+			</div>
+			<!-- end of container -->
+		</nav>
+		<!-- end of navbar -->
+		<!-- end of navigation -->
 
+		<!-- Header -->
+		<header id="header" class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="text-container">
+							<h1 class="h1-large">Turning Ideas into Reality with Code</h1>
+							<p class="p-large">
+								Hi, I'm Alex Nichols, a Junior DevOps Engineer with a passion
+								for cloud technology and infrastructure automation. Let's build
+								something amazing together!
+							</p>
+							<a class="btn-solid-lg page-scroll" href="#about">Discover</a>
+							<a class="btn-outline-lg page-scroll" href="#contact"
+								><i class="fas fa-user"></i>Contact Me</a
+							>
+						</div>
+						<!-- end of text-container -->
+					</div>
+					<!-- end of col -->
+				</div>
+				<!-- end of row -->
+			</div>
+			<!-- end of container -->
+		</header>
+		<!-- end of header -->
+		<!-- end of header -->
 
-        <!-- Services -->
-        <div id="services" class="basic-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2 class="h2-heading">Services</h2>
-                        <p class="p-heading">We offer custom web design and other software solutions</p>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="text-box">
-                            <i class="far fa-gem"></i>
-                            <h4>DEVELOP</h4>
-                            <p>The "Develop" stage is the creative heart of the DevOps lifecycle, focusing on planning and coding. Here, ideas are transformed into tangible software solutions through comprehensive requirement gathering, iterative coding, and version control. Collaboration tools like Git facilitate seamless integration of contributions from various team members. Emphasizing automation, continuous integration tools are employed to ensure that the development process not only matches but accelerates the pace of business demands, reducing manual errors and improving code quality.</p>
-                        </div> <!-- end of text-box -->
-                    </div> <!-- end of col -->
-                    <div class="col-lg-4">
-                        <div class="text-box">
-                            <i class="fas fa-code"></i>
-                            <h4>BUILD</h4>
-                            <p>In the "Build" phase, the development progresses from code to a non-production, or sometimes production-ready build. This stage involves compiling code and dependencies to create executable applications. By automating the build process using tools like Jenkins, TeamCity, or Travis CI, teams can ensure consistency, track build history, and quickly identify integration issues. Automation in the build phase is crucial for accelerating development cycles, ensuring repeatability, and enabling rapid feedback on the health of the application.</p>
-                        </div> <!-- end of text-box -->
-                    </div> <!-- end of col -->
-                    <div class="col-lg-4">
-                        <div class="text-box">
-                            <i class="fas fa-tv"></i>
-                            <h4>DEPLOY</h4>
-                            <p>Deployment is the stage where applications are delivered to the production environment, making them available to end-users. This critical phase uses automated deployment tools such as Kubernetes, Docker, and Ansible to ensure reliable and scalable application distribution across different environments. Techniques like blue-green deployment and canary releases help in mitigating risks by providing rollback capabilities and phased rollouts, ensuring that new features are introduced with minimal disruptions to the ongoing operations. Continuous deployment practices enable a high release velocity, supporting a dynamic business landscape.</p>
-                        </div> <!-- end of text-box -->
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of basic-2 -->
-        <!-- end of services -->
+		<!-- Skills -->
+		<div id="skills" class="basic-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 class="h2-heading">Skills</h2>
+						<p class="p-heading">
+							Showcasing technical proficiency and expertise in cloud
+							engineering and DevOps practices
+						</p>
+					</div>
+					<!-- end of col -->
+				</div>
+				<!-- end of row -->
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="text-box">
+							<i class="far fa-gem"></i>
+							<h4>CLOUD ENGINEERING</h4>
+							<p>
+								Proficient in AWS, Terraform, Docker, and Kubernetes for
+								developing, managing, and deploying cloud infrastructure.
+								Experienced in creating scalable and secure cloud environments,
+								integrating various AWS services to optimize performance and
+								cost-efficiency.
+							</p>
+						</div>
+						<!-- end of text-box -->
+					</div>
+					<!-- end of col -->
+					<div class="col-lg-4">
+						<div class="text-box">
+							<i class="fas fa-code"></i>
+							<h4>INFRASTRUCTURE AS CODE</h4>
+							<p>
+								Expertise in using Terraform and Kubernetes to automate
+								infrastructure deployment and management. Skilled in creating
+								reusable, modular configurations that ensure consistency and
+								reliability across various environments, enhancing deployment
+								speed and reducing manual errors.
+							</p>
+						</div>
+						<!-- end of text-box -->
+					</div>
+					<!-- end of col -->
+					<div class="col-lg-4">
+						<div class="text-box">
+							<i class="fas fa-tv"></i>
+							<h4>DEVOPS PRACTICES</h4>
+							<p>
+								Comprehensive knowledge of CI/CD pipelines using Jenkins,
+								CircleCI, and other tools to automate testing, building, and
+								deployment processes. Proficient in utilizing monitoring tools
+								like Prometheus and Grafana to ensure system reliability and
+								performance.
+							</p>
+						</div>
+						<!-- end of text-box -->
+					</div>
+					<!-- end of col -->
+				</div>
+				<!-- end of row -->
+			</div>
+			<!-- end of container -->
+		</div>
+		<!-- end of basic-2 -->
+		<!-- end of skills -->
 
+		<!-- Details -->
+		<div class="split">
+			<div class="area-1">
+			</div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2 bg-gray">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<!-- Text Container -->
+							<div class="text-container">
+								<h2>What I Can Do</h2>
+								<p>
+									Following key DevOps principles, I excel in creating efficient
+									and scalable solutions for complex technical challenges.
+								</p>
 
-        <!-- Details -->
-        <div class="split">
-            <div class="area-1">
-            </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2 bg-gray">
-                <div class="container">    
-                    <div class="row">
-                        <div class="col-lg-12">     
-                            
-                            <!-- Text Container -->
-                            <div class="text-container">
-                                <h2>What I can do</h2>
-                                <p>Followwing key DevOps principles I do this and that</p>
-                                <h5>DevOps Technologies</h5>
-                                <p>Give a list of DevOps tools I have experience with like terraform, AWS etc</p>
-                                <h5>Development Skills</h5>
-                                <p>List of Languages I've learnt</p>
-                                
-                                <div class="icons-container">
-                                    <img src="images/details-icon-photoshop.png" alt="alternative">
-                                    <img src="images/details-icon-illustrator.png" alt="alternative">
-                                    <img src="images/details-icon-html.png" alt="alternative">
-                                    <img src="images/details-icon-css.png" alt="alternative">
-                                    <img src="images/details-icon-bootstrap.png" alt="alternative">
-                                    <img src="images/details-icon-javascript.png" alt="alternative">
-                                </div> <!-- end of icons-container -->
-                            </div> <!-- end of text-container -->
-                            <!-- end of text container -->
+								<h5>DevOps Technologies</h5>
+								<p>
+									I have experience with a wide range of DevOps tools and Languages
+								</p>
+								<ul>
+									<li>Terraform</li>
+									<li>AWS</li>
+									<li>Docker</li>
+									<li>Kubernetes</li>
+									<li>CircleCI</li>
+									<li>Prometheus</li>
+									<li>JavaScript</li>
+									<li>HTML & CSS</li>
+								</ul>
 
-                        </div> <!-- end of col -->
-                    </div> <!-- end of row -->
-                </div> <!-- end of container -->
-            </div> <!-- end of area-2 -->
-        </div> <!-- end of split -->
-        <!-- end of details -->
+								<div class="icons-container">
+									<img src="images/details-icon-html.png" alt="HTML" />
+									<img src="images/details-icon-css.png" alt="CSS" />
+									<img
+										src="images/details-icon-bootstrap.png"
+										alt="Bootstrap"
+									/>
+									<img
+										src="images/details-icon-javascript.png"
+										alt="JavaScript"
+									/>
+								</div>
+								<!-- end of icons-container -->
+							</div>
+							<!-- end of text-container -->
+						</div>
+						<!-- end of col -->
+					</div>
+					<!-- end of row -->
+				</div>
+				<!-- end of container -->
+			</div>
+			<!-- end of area-2 -->
+		</div>
+		<!-- end of split -->
+		<!-- end of details -->
 
+		<!-- Projects -->
+		<div id="projects" class="basic-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 class="h2-heading">Projects</h2>
+						<p class="p-heading">
+							Here are some of the projects I've worked on, showcasing my skills
+							and expertise.
+						</p>
+					</div>
+					<!-- end of col -->
+				</div>
+				<!-- end of row -->
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="text-container">
+							<div class="image-container">
+								<a
+									href="https://github.com/AlexGuyNichols/terraform-project"
+									target="_blank"
+								>
+									<img
+										class="img-fluid"
+										src="images/project-1.jpg"
+										alt="Terraform Project"
+									/>
+								</a>
+							</div>
+							<!-- end of image-container -->
+							<p>
+								<strong>For:</strong> Northcoders, <strong>Project:</strong> AWS
+								Cloud Infrastructure using Terraform
+								<a
+									class="blue"
+									href="https://github.com/AlexGuyNichols/terraform-project"
+									target="_blank"
+									><strong>GitHub</strong></a
+								>
+							</p>
+						</div>
+						<!-- end of text-container -->
+						<div class="text-container">
+							<div class="image-container">
+								<a
+									href="https://github.com/AlexGuyNichols/team-project"
+									target="_blank"
+								>
+									<img
+										class="img-fluid"
+										src="images/project-2.jpg"
+										alt="Full-Stack Web App"
+									/>
+								</a>
+							</div>
+							<!-- end of image-container -->
+							<p>
+								<strong>For:</strong> Northcoders,
+								<strong>Project:</strong> Full-Stack Web Application on AWS
+								<a
+									class="blue"
+									href="https://github.com/AlexGuyNichols/team-project"
+									target="_blank"
+									><strong>GitHub</strong></a
+								>
+							</p>
+						</div>
+						<!-- end of text-container -->
+					</div>
+					<!-- end of col -->
+				</div>
+				<!-- end of row -->
+			</div>
+			<!-- end of container -->
+		</div>
+		<!-- end of basic-3 -->
+		<!-- end of projects -->
 
-        <!-- Projects -->
-        <div id="projects" class="basic-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2 class="h2-heading">Projects</h2>
-                        <p class="p-heading">You can find a collection of the projects I've worked on here</p>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="text-container">
-                            <div class="image-container">
-                                <a href="https://github.com/AlexGuyNichols/terraform-project">
-                                    <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
-                                </a>
-                            </div> <!-- end of image-container -->
-                            <p><strong>For:</strong> Northcoders, <strong>Project:</strong> We were tasked with creating AWS cloud infrastructure using Terraform <a class="blue" href="https://github.com/AlexGuyNichols/terraform-project"><strong>GitHub</strong></a></p>
-                        </div> <!-- end of text-container -->
-                        <div class="text-container">
-                            <div class="image-container">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
-                                </a>
-                            </div> <!-- end of image-container -->
-                            <p><strong>For:</strong> Carsrepo, <strong>Project:</strong> ornare arcu odio ut semi et malesuada fames ac turpis egestas maecenas phase <a class="blue" href="project.html">details</a></p>
-                        </div> <!-- end of text-container -->
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of basic-3 -->
-        <!-- end of projects -->
+		<!-- Section Divider -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<hr class="section-divider" />
+				</div>
+				<!-- end of col -->
+			</div>
+			<!-- end of row -->
+		</div>
+		<!-- end of container -->
+		<!-- end of section divider -->
 
-        <!-- Section Divider -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <hr class="section-divider">
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-        <!-- end of section divider -->
+		<!-- Achievements -->
+		<div class="basic-4">
+			<div class="container">
+				<div class="row my-5">
+					<div class="col-lg-12 text text-center">
+						<h2 class="h2-heading">Achievements</h2>
+						<p class="p-heading">Here are some of my notable achievements.</p>
+					</div>
+					<!-- end of col -->
+				</div>
+				<!-- end of row -->
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="text-container">
+							<div class="image-container">
+								<a
+									href="https://github.com/AlexGuyNichols/terraform-project"
+									target="_blank"
+								>
+									<img
+										class="img-fluid"
+										src="images/Alexander-Nichols-certificate.png"
+										alt="Cloud Engineering Certificate"
+									/>
+								</a>
+							</div>
+							<!-- end of image-container -->
+							<p>
+								<strong>From:</strong> Northcoders <strong>Title:</strong> Cloud
+								Engineering Certificate
+								<a
+									class="blue"
+									href="https://github.com/AlexGuyNichols/terraform-project"
+									target="_blank"
+									>GitHub</a
+								>
+							</p>
+						</div>
+						<!-- end of text-container -->
+					</div>
+					<!-- end of col -->
+					<div class="col-lg-4">
+						<div class="text-container">
+							<div class="image-container">
+								<a
+									href="https://www.codecademy.com/profiles/alexguynichols"
+									target="_blank"
+								>
+									<img
+										class="img-fluid"
+										src="images/Build Apps With Swift | Codecademy.png"
+										alt="Codecademy Certificate"
+									/>
+								</a>
+							</div>
+							<!-- end of image-container -->
+							<p>
+								<strong>From:</strong> Codecademy <strong>Title:</strong> Build
+								Apps with Swift Certificate
+								<a
+									class="blue"
+									href="https://www.codecademy.com/profiles/alexguynichols"
+									target="_blank"
+									>Details</a
+								>
+							</p>
+						</div>
+						<!-- end of text-container -->
+					</div>
+					<!-- end of col -->
+					<div class="col-lg-4">
+						<div class="text-container">
+							<div class="image-container">
+								<a
+									href="https://github.com/AlexGuyNichols/team-project"
+									target="_blank"
+								>
+									<img
+										class="img-fluid"
+										src="images/work-3.jpg"
+										alt="Full-Stack Web App"
+									/>
+								</a>
+							</div>
+							<!-- end of image-container -->
+							<p>
+								<strong>For:</strong> Northcoders
+								<strong>Project:</strong> Full-Stack Web Application on AWS
+								<a
+									class="blue"
+									href="https://github.com/AlexGuyNichols/team-project"
+									target="_blank"
+									>GitHub</a
+								>
+							</p>
+						</div>
+						<!-- end of text-container -->
+					</div>
+					<!-- end of col -->
+				</div>
+				<!-- end of row -->
+			</div>
+			<!-- end of container -->
+		</div>
+		<!-- end of basic-4 -->
+		<!-- end of achievements -->
 
-        <!-- Works -->
-        <div class="basic-4">
-            <div class="container">
-                <div class="row my-5">
-                    <div class="col-lg-12 text text-center">
-                        <h2 class="h2-heading">Achievements</h2>
-                        <p class="p-heading">You can find a collection of my Achievements here</p>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="text-container">
-                            <div class="image-container">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/Alexander-Nichols-certificate.png" alt="alternative">
-                                </a>
-                            </div> <!-- end of image-container -->
-                            <p><strong>From:</strong> Northcoders <strong>Title:</strong> Cloud Engineering <a class="blue" href="project.html">details</a></p>
-                        </div> <!-- end of text-container -->
-                    </div> <!-- end of col -->
-                    <div class="col-lg-4">
-                        <div class="text-container">
-                            <div class="image-container">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/Build Apps With Swift | Codecademy.png" alt="alternative">
-                                </a>
-                            </div> <!-- end of image-container -->
-                            <p><strong>For:</strong> Visodream, <strong>Project:</strong> praesent semper feugiat donec pretium vulputate <a class="blue" href="project.html">details</a></p>
-                        </div> <!-- end of text-container -->
-                    </div> <!-- end of col -->
-                    <div class="col-lg-4">
-                        <div class="text-container">
-                            <div class="image-container">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/work-3.jpg" alt="alternative">
-                                </a>
-                            </div> <!-- end of image-container -->
-                            <p><strong>For:</strong> Primoday, <strong>Project:</strong> sapien nec sagittis aliquam malesuada bibendum arcu ndi <a class="blue" href="project.html">details</a></p>
-                        </div> <!-- end of text-container -->
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="text-container">
-                            <div class="image-container">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/work-4.jpg" alt="alternative">
-                                </a>
-                            </div> <!-- end of image-container -->
-                            <p><strong>For:</strong> Nextlite, <strong>Project:</strong> lacinia quis vel eros donec et molestie ac feugiat <a class="blue" href="project.html">details</a></p>
-                        </div> <!-- end of text-container -->
-                    </div> <!-- end of col -->
-                    <div class="col-lg-4">
-                        <div class="text-container">
-                            <div class="image-container">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/work-5.jpg" alt="alternative">
-                                </a>
-                            </div> <!-- end of image-container -->
-                            <p><strong>For:</strong> Syncnow, <strong>Project:</strong> nibh nisl condimentum id venenatis praesent semper feugiat <a class="blue" href="project.html">details</a></p>
-                        </div> <!-- end of text-container -->
-                    </div> <!-- end of col -->
-                    <div class="col-lg-4">
-                        <div class="text-container">
-                            <div class="image-container">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/work-6.jpg" alt="alternative">
-                                </a>
-                            </div> <!-- end of image-container -->
-                            <p><strong>For:</strong> Shifter, <strong>Project:</strong> amet consectetur adipiscing elit duis semper risus in <a class="blue" href="project.html">details</a></p>
-                        </div> <!-- end of text-container -->
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of basic-4 -->
-        <!-- end of works -->
+		<!-- Section Divider -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<hr class="section-divider" />
+				</div>
+				<!-- end of col -->
+			</div>
+			<!-- end of row -->
+		</div>
+		<!-- end of container -->
+		<!-- end of section divider -->
 
+		<!-- Questions -->
+		<div class="accordion-1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 class="h2-heading">Questions</h2>
+					</div>
+					<!-- end of col -->
+				</div>
+				<!-- end of row -->
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="accordion" id="accordionExample">
+							<div class="card">
+								<div class="card-header" id="headingOne">
+									<button
+										class="btn btn-link btn-block text-left"
+										type="button"
+										data-toggle="collapse"
+										data-target="#collapseOne"
+										aria-expanded="true"
+										aria-controls="collapseOne"
+									>
+										What experience do you have with DevOps?
+									</button>
+								</div>
+								<div
+									id="collapseOne"
+									class="collapse show"
+									aria-labelledby="headingOne"
+									data-parent="#accordionExample"
+								>
+									<div class="card-body">
+										I have completed a 13-week Cloud Engineering Bootcamp at
+										Northcoders, where I mastered DevOps practices including
+										CI/CD, infrastructure as code with Terraform, Docker, and
+										Kubernetes. I have worked on projects involving AWS,
+										Jenkins, and other automation tools to ensure efficient and
+										reliable deployments.
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingTwo">
+									<button
+										class="btn btn-link btn-block text-left collapsed"
+										type="button"
+										data-toggle="collapse"
+										data-target="#collapseTwo"
+										aria-expanded="false"
+										aria-controls="collapseTwo"
+									>
+										What are your primary technical skills?
+									</button>
+								</div>
+								<div
+									id="collapseTwo"
+									class="collapse"
+									aria-labelledby="headingTwo"
+									data-parent="#accordionExample"
+								>
+									<div class="card-body">
+										My primary technical skills include cloud platforms (AWS),
+										infrastructure as code (Terraform), containerization
+										(Docker, Kubernetes), CI/CD pipelines (Jenkins, CircleCI),
+										and monitoring (Prometheus, Grafana). Additionally, I have
+										experience with JavaScript and Swift for development.
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingThree">
+									<button
+										class="btn btn-link btn-block text-left collapsed"
+										type="button"
+										data-toggle="collapse"
+										data-target="#collapseThree"
+										aria-expanded="false"
+										aria-controls="collapseThree"
+									>
+										Can you describe a project you've worked on?
+									</button>
+								</div>
+								<div
+									id="collapseThree"
+									class="collapse"
+									aria-labelledby="headingThree"
+									data-parent="#accordionExample"
+								>
+									<div class="card-body">
+										One of my notable projects involved creating a scalable
+										full-stack web application deployed on AWS. This project
+										utilized Terraform for infrastructure, Docker and Kubernetes
+										for container orchestration, and CI/CD pipelines with
+										CircleCI and ArgoCD for automated deployments.
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingFour">
+									<button
+										class="btn btn-link btn-block text-left collapsed"
+										type="button"
+										data-toggle="collapse"
+										data-target="#collapseFour"
+										aria-expanded="false"
+										aria-controls="collapseFour"
+									>
+										How do you approach problem-solving in DevOps?
+									</button>
+								</div>
+								<div
+									id="collapseFour"
+									class="collapse"
+									aria-labelledby="headingFour"
+									data-parent="#accordionExample"
+								>
+									<div class="card-body">
+										My approach to problem-solving in DevOps involves
+										understanding the root cause, collaborating with team
+										members, and utilizing automation tools to create efficient,
+										repeatable solutions. I emphasize continuous learning and
+										improvement, ensuring systems are resilient and scalable.
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingFive">
+									<button
+										class="btn btn-link btn-block text-left collapsed"
+										type="button"
+										data-toggle="collapse"
+										data-target="#collapseFive"
+										aria-expanded="false"
+										aria-controls="collapseFive"
+									>
+										What motivates you in your tech career?
+									</button>
+								</div>
+								<div
+									id="collapseFive"
+									class="collapse"
+									aria-labelledby="headingFive"
+									data-parent="#accordionExample"
+								>
+									<div class="card-body">
+										I am motivated by the dynamic nature of technology and the
+										continuous opportunities for learning and innovation.
+										Solving complex problems and contributing to impactful
+										projects drives my passion for the tech industry.
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end of accordion -->
+					</div>
+					<!-- end of col -->
+				</div>
+				<!-- end of row -->
+			</div>
+			<!-- end of container -->
+		</div>
+		<!-- end of accordion-1 -->
+		<!-- end of questions -->
 
+		<!-- Contact -->
+		<div id="contact" class="form-1 bg-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2>Contact Me</h2>
+						<p class="p-heading">
+							Please fill out the form below to get in touch with me. I'll get
+							back to you as soon as possible.
+						</p>
+					</div>
+					<!-- end of col -->
+				</div>
+				<!-- end of row -->
+				<div class="row">
+					<div class="col-lg-12">
+						<!-- Contact Form -->
+						<form id="contactForm">
+							<div class="form-group">
+								<input
+									type="text"
+									class="form-control-input"
+									id="cname"
+									required
+								/>
+								<label class="label-control" for="cname">Name</label>
+							</div>
+							<div class="form-group">
+								<input
+									type="email"
+									class="form-control-input"
+									id="cemail"
+									required
+								/>
+								<label class="label-control" for="cemail">Email</label>
+							</div>
+							<div class="form-group">
+								<textarea
+									class="form-control-textarea"
+									id="cmessage"
+									required
+								></textarea>
+								<label class="label-control" for="cmessage"
+									>Project details</label
+								>
+							</div>
+							<div class="form-group">
+								<button type="submit" class="form-control-submit-button">
+									Submit
+								</button>
+							</div>
+						</form>
+						<!-- end of contact form -->
+					</div>
+					<!-- end of col -->
+				</div>
+				<!-- end of row -->
+			</div>
+			<!-- end of container -->
+		</div>
+		<!-- end of form-1 -->
+		<!-- end of contact -->
 
-        <!-- Section Divider -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <hr class="section-divider">
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-        <!-- end of section divider -->
+		<!-- Footer -->
+		<div class="footer bg-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="social-container">
+							<span class="fa-stack">
+								<a
+									href="https://linkedin.com/in/alexguynichols"
+									target="_blank"
+								>
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i class="fab fa-linkedin fa-stack-1x"></i>
+								</a>
+							</span>
+							<span class="fa-stack">
+								<a href="https://instagram.com/alexguynichols" target="_blank">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i class="fab fa-instagram fa-stack-1x"></i>
+								</a>
+							</span>
+							<span class="fa-stack">
+								<a href="https://github.com/AlexGuyNichols" target="_blank">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i class="fab fa-github fa-stack-1x"></i>
+								</a>
+							</span>
+						</div>
+						<!-- end of social-container -->
+					</div>
+					<!-- end of col -->
+				</div>
+				<!-- end of row -->
+			</div>
+			<!-- end of container -->
+		</div>
+		<!-- end of footer -->
+		<!-- end of footer -->
 
+		<!-- Copyright -->
+		<div class="copyright bg-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="p-small">
+							Copyright © 2024 Alex Nichols. All Rights Reserved.
+						</p>
+					</div>
+					<!-- end of col -->
+				</div>
+				<!-- end of row -->
+			</div>
+			<!-- end of container -->
+		</div>
+		<!-- end of copyright -->
+		<!-- end of copyright -->
 
-        <!-- Questions -->
-        <div class="accordion-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2 class="h2-heading">Questions</h2>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-                <div class="row">
-                    <div class="col-lg-12">
-
-                        <div class="accordion" id="accordionExample">
-                            <div class="card">
-                                <div class="card-header" id="headingOne">
-                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        What experience do you have with DevOps?
-                                    </button>
-                                </div>
-                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        Risus viverra adipiscing at in tellus integer feugiat scelerisque. Fames ac turpis egestas sed tempus urna et. Nec tincidunt praesent semper feugiat. Donec pretium
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingTwo">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Ulputate sapien nec sagittis aliquam malesuada bibendum arcu con?
-                                    </button>
-                                </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        Risus viverra adipiscing at in tellus integer feugiat scelerisque. Fames ac turpis egestas sed tempus urna et. Nec tincidunt praesent semper feugiat. Donec pretium
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingThree">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Quis vel eros donec et molestie ac feugiat sed lectus nibh ni condiment?
-                                    </button>
-                                </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        Risus viverra adipiscing at in tellus integer feugiat scelerisque. Fames ac turpis egestas sed tempus urna et. Nec tincidunt praesent semper feugiat. Donec pretium
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingFour">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Amet consectetur adipiscing elit duise semper risus inha endrerit?
-                                    </button>
-                                </div>
-                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        Risus viverra adipiscing at in tellus integer feugiat scelerisque. Fames ac turpis egestas sed tempus urna et. Nec tincidunt praesent semper feugiat. Donec pretium
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingFive">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        Vitae et leo duis vulputate sapien nec sagittis aliquam malesuada?
-                                    </button>
-                                </div>
-                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        Risus viverra adipiscing at in tellus integer feugiat scelerisque. Fames ac turpis egestas sed tempus urna et. Nec tincidunt praesent semper feugiat. Donec pretium
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- end of accordion -->
-
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of accordion-1 -->
-        <!-- end of questions -->
-
-
-        <!-- Contact -->
-        <div id="contact" class="form-1 bg-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2>Contact Me</h2>
-                        <p class="p-heading">Please fill out the form below or send me an email at <a class="blue no-line" href="#your-link">contact@name.com</a></p>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        
-                        <!-- Contact Form -->
-                        <form id="contactForm">
-                            <div class="form-group">
-                                <input type="text" class="form-control-input" id="cname" required>
-                                <label class="label-control" for="cname">Name</label>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control-input" id="cemail" required>
-                                <label class="label-control" for="cemail">Email</label>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                                <label class="label-control" for="cmessage">Project details</label>
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="form-control-submit-button">Submit</button>
-                            </div>
-                        </form>
-                        <!-- end of contact form -->
-
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of form-1 -->  
-        <!-- end of contact -->
-
-
-        <!-- Footer -->
-        <div class="footer bg-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="social-container">
-                            <span class="fa-stack">
-                                <a href="https://linkedin.com/in/alexguynichols">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-linkedin fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="https://instagram.com/alexguynichols">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-instagram fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-youtube fa-stack-1x"></i>
-                                </a>
-                            </span>
-                        </div> <!-- end of social-container -->
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of footer -->  
-        <!-- end of footer -->
-
-
-        <!-- Copyright -->
-        <div class="copyright bg-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p class="p-small">Copyright © Alex Nichols</p>
-                    </div> <!-- end of col -->
-                </div> <!-- enf of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of copyright --> 
-        <!-- end of copyright -->
-        
-            
-        <!-- Scripts -->
-        <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-        <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-        <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-        <script src="js/scripts.js"></script> <!-- Custom scripts -->
-    </body>
+		<!-- Scripts -->
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery for Bootstrap's JavaScript plugins -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Bootstrap framework -->
+		<script src="js/jquery.easing.min.js"></script>
+		<!-- jQuery Easing for smooth scrolling between anchors -->
+		<script src="js/scripts.js"></script>
+		<!-- Custom scripts -->
+	</body>
 </html>
